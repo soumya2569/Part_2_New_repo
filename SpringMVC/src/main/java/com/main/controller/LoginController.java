@@ -26,7 +26,7 @@ public class LoginController {
 	
 	@GetMapping("/userdetails")
 	public String UserDetails() {
-		String res="{Username : admin,"+"emailid :admin@infy.com,"+"contactnumber:9848022338";
+		String res="{Username : admin,"+"emailid :admin@infy.com,"+"contactnumber:9848022338}";
 		return res;
 	}
 	
